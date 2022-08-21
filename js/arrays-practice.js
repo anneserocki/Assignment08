@@ -116,17 +116,24 @@
 
  
 //STEP 14
-
+let employees = ['ZAK', 'JESSICA', 'MARK', 'FRED', 'SALLY'];
+console.log('Employees:');
+console.log('           ');
+for (let i of employees) {
+    console.log(i);
+}; 
 
 //STEP 15
+// let theAarry = [58, '', 'abcd', true, null, false, 0];
+// theAarry = theAarry.splice(0,4);
+// console.log(theAarry)
 
-
-//STEP 16
+//STEP 16 --I need to re-do it.
 // let numbers = [2,48,25,22,16,78,100,450,600,1021];
-// for (let i=0; i< numbers.length; i++) {
-//     numbers = numbers.slice(i);
-//     console.log(numbers);
+// for (i=0; i< numbers.length; i++) {
+//     numbers = numbers.slice(Math.floor(Math.random()*10+1));    
 // }
+// console.log(numbers);
  
 //STEP 17
 // let numbers = [18,5,6,25.5,100];
